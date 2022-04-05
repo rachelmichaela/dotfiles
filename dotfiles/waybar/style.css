@@ -1,0 +1,39 @@
+* {
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	font-family: "Ubuntu";
+	font-size: 15px;
+	text-shadow: none;
+}
+
+window#waybar, window#waybar.solo {
+	color: #FFFFFF;
+}
+
+window#waybar {
+	background-color: rgba(36, 0, 0, 0.4);
+	border-bottom:  px solid rgba(208, 0, 0, 0.4);
+}
+
+#workspaces, #workspaces button {
+	margin: 0 5px;
+}
+
+#workspaces button {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+# openSUSE color
+#workspaces button.focused, #workspaces button.visible {
+	color: #73BA25;
+}
+
+#workspaces button.urgent {
+	color: #21A4DF;
+}
+
+#mode, #battery, #cpu, #memory, #network, #pulseaudio, #idle_inhibitor,
+#temperature, #custom-layout, #backlight, #clock {
+	margin: 0px 6px 0px 10px;
+}

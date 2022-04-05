@@ -1,0 +1,13 @@
+if ($OSTYPE == "darwin") then
+	setenv EDITOR "subl -1"
+	setenv PATH $PATH\:/opt/local/bin
+	setenv PATH $PATH\:/Users/{$USER}/.emacs.d/bin
+	setenv PATH $PATH\:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
+else
+	setenv EDITOR "vim"
+	if ($OSTYPE == "FreeBSD") then
+		setenv PATH $PATH\:/usr/home/{$USER}
+	else
+		setenv PATH $PATH\:/home/{$USER}
+	endif
+endif
