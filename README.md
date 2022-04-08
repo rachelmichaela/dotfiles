@@ -1,7 +1,7 @@
 # `dotfiles`
 My personal collection of dotfiles for use on macOS, FreeBSD, and GNU/Linux.
 
-Document last updated April 5th, 2022 (4 Nisan 5782)
+Document last updated April 8th, 2022 (7 Nisan 5782)
 
 ### Table of Contents
 - [About `dotfiles`](#about-dotfiles)
@@ -31,6 +31,7 @@ collection as a prompt to create and share your own!
 Configuration files are provided for the following applications:
 - [Emacs](https://www.gnu.org/software/emacs/) with
 [Doom](https://github.com/hlissner/doom-emacs/)
+- [greetd](https://git.sr.ht/~kennylevinsen/greetd) for Sway
 - [Sublime Text](https://www.sublimetext.com/)
 - [swaywm](https://swaywm.org/)
 - [tcsh](https://www.tcsh.org/)
