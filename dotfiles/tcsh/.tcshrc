@@ -7,7 +7,9 @@ else
 	setenv EDITOR "vim"
 	if ($OSTYPE == "FreeBSD") then
 		setenv PATH $PATH\:/usr/home/{$USER}
+		setenv PATH $PATH\:/usr/home/{$USER}/.emacs.d/bin
 	else
 		setenv PATH $PATH\:/home/{$USER}
+		setenv PATH $PATH\:/home/{$USER}/.emacs.d/bin
 	endif
 endif
