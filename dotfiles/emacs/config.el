@@ -8,3 +8,4 @@
 (setq-default indent-tabs-mode t)
 (setq confirm-kill-emacs nil)
 (add-hook 'window-setup-hook #'toggle-frame-maximized)
+(global-display-fill-column-indicator-mode t)
