@@ -25,3 +25,13 @@ set history=100
 
 " Add a vertical rule at 80 characters
 set colorcolumn=80
+
+" Use vim-plug package manager
+call plug#begin()
+	" Use the EditorConfig plugin
+	Plug 'editorconfig/editorconfig-vim'
+	
+	" Use the Smart Tabs plugin
+	Plug 'Thyrum/vim-stabs'
+call plug#end()
+	
