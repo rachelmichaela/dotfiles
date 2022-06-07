@@ -1,7 +1,7 @@
 # `dotfiles`
 My personal collection of dotfiles for use on macOS, FreeBSD, and GNU/Linux.
 
-Document last updated April 8th, 2022 (7 Nisan 5782)
+Document last updated June 7th, 2022 (8 Sivan 5782)
 
 ### Table of Contents
 - [About `dotfiles`](#about-dotfiles)
@@ -29,23 +29,19 @@ collection as a prompt to create and share your own!
 ### What `dotfiles` are included?
 
 Configuration files are provided for the following applications:
-- [Emacs](https://www.gnu.org/software/emacs/) with
+- GNU [Bash](https://www.gnu.org/software/bash/)
+- GNU [Emacs](https://www.gnu.org/software/emacs/) with
 [Doom](https://github.com/hlissner/doom-emacs/)
 - [greetd](https://git.sr.ht/~kennylevinsen/greetd) for Sway
-- [Sublime Text](https://www.sublimetext.com/)
 - [swaywm](https://swaywm.org/)
-- [tcsh](https://www.tcsh.org/)
-- [Vim](https://www.vim.org/)
+- [Vim](https://www.vim.org/) with 
+[vim-plug](https://github.com/junegunn/vim-plug)
 - [Wofi](https://hg.sr.ht/~scoopta/wofi/)
-
-#### Dependencies
-
-- Sublime Text requires the GitHub color scheme and GitHub theme packages. I
-strongly recommend Vintageous, too.
 
 #### Notes
 
-- `tcshrc` includes paths for macOS, FreeBSD, and GNU/Linux.
+- The Vim configuration file can be used without `vim-plug`, but Vim will throw
+errors on launch.
 
 ### How to use `dotfiles`
 
