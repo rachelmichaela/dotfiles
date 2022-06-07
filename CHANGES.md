@@ -13,7 +13,7 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 ### Added
 - Provide a small installer script.
 
-## [22.06.1] -- 2022/06/07
+## [22.06.1] - 2022/06/07
 
 ### Added
 - `bash`: Added basic files for `bash`
@@ -28,7 +28,7 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 - `Sublime Text`: Removed `Sublime Text` completely due to `emacs` transition
 - `tcsh`: Removed `tcsh` following switch to `bash`
 
-## [22.04.2] -- 2022/04/08
+## [22.04.2] - 2022/04/08
 
 ### Added
 - Added basic file for `greetd`, configured for Sway.
