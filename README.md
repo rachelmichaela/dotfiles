@@ -1,7 +1,7 @@
 # `dotfiles`
-My personal collection of dotfiles for use on macOS, FreeBSD, and GNU/Linux.
+My personal collection of dotfiles for use on GNU/Linux, FreeBSD, and others.
 
-Document last updated June 7th, 2022 (8 Sivan 5782)
+Document last updated October 9th, 2022 (14 Tishrei 5783)
 
 ### Table of Contents
 - [About `dotfiles`](#about-dotfiles)
@@ -14,7 +14,7 @@ Document last updated June 7th, 2022 (8 Sivan 5782)
 ### About `dotfiles`
 
 `dotfiles` is a modest collection of dotfiles that I have put together to
-augment my macOS, FreeBSD, and GNU/Linux environments.
+augment my GNU/Linux, FreeBSD, and other environments.
 
 As an individual who frequently reinstalls operating systems or has to use
 new systems temporarily, having a collection of configuration files that I can
