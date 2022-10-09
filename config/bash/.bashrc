@@ -22,6 +22,7 @@ PS1+=" \$ "
 PATH="$PATH"
 PATH+=":$HOME/.emacs.d/bin"
 PATH+=":$HOME/perl5/perlbrew/bin"
+PATH+=":$HOME/.local/bin"
 # Include MacPorts if using non-free macOS
 if [[ $OSTYPE =~ darwin ]]; then
 	PATH+=":/opt/local/bin" \
