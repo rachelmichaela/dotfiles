@@ -41,8 +41,15 @@ fi
 # Load Perlbrew
 if [[ -f /opt/perl5/etc/bashrc ]]; then
 	source /opt/perl5/etc/bashrc
+elif [[ -f $HOME/perl5/perlbrew/etc/bashrc ]]; then
+	source $HOME/perl5/perlbrew/etc/bashrc
 fi
-export PERLBREW_ROOT=/opt/perl5
+
+if [[ $OSTYPE =~ darwin ]]; then
+	export PERLBREW_ROOT=/opt/perl5
+else
+	export $HOME/perl5/perlbrew
+fi
 
 # Load the Node Version Manager
 if [[ -d "$HOME/.nvm" ]]; then
