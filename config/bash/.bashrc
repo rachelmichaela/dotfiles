@@ -48,7 +48,7 @@ fi
 if [[ $OSTYPE =~ darwin ]]; then
 	export PERLBREW_ROOT=/opt/perl5
 else
-	export $HOME/perl5/perlbrew
+	export PERLBREW_ROOT=$HOME/perl5/perlbrew
 fi
 
 # Load the Node Version Manager
