@@ -56,9 +56,13 @@ if [[ -d "$HOME/.nvm" ]]; then
 	. "$HOME/.nvm/nvm.sh"
 fi
 
-# If Emacs exists with Doom, set it as the editor; else, try Vim
+# If Emacs exists with Doom, set as editor; else, try Vim; else, safe fallbacks
 if [ -x "$(command -v doom)" ]; then
 	EMACS_PATH=$(command -v emacs); export EDITOR=$EMACS_PATH
 elif [ -x "$(command -v vim)" ]; then
 	VIM_PATH=$(command -v vim); export EDITOR=$VIM_PATH
+elif [ -x "$(command -v ee)" ]; then
+	EE_PATH=$(command -v ee); export EDITOR=$EE_PATH
+elif [ -x "$(command -v nano)" ]; then
+	NANO_PATH=$(command -v nano); export EDITOR=$NANO_PATH
 fi
