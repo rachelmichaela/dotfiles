@@ -13,6 +13,11 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 ### Added
 - Provide a small installer script.
 
+## [22.10.1] - 2022/10/13
+
+### Added
+- `vim`: Automatically install `vim-plug` with plugins
+
 ## [22.06.1] - 2022/06/07
 
 ### Added

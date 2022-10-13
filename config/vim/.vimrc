@@ -27,6 +27,17 @@ set history=100
 set colorcolumn=80
 
 " Use vim-plug package manager
+let data_dir = '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  	let url = 'https://raw.githubusercontent.com/' 
+				\ .'junegunn/vim-plug/master/plug.vim'
+	silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs '
+				\ .url
+	autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+  \| PlugInstall --sync | source $MYVIMRC
+\| endif
 call plug#begin()
 	" Use the EditorConfig plugin
 	Plug 'editorconfig/editorconfig-vim'
