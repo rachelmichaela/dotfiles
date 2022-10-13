@@ -1,6 +1,6 @@
 # Changes
 
-Document last updated June 7th, 2022 (8 Sivan 5782)
+Document last updated October 13th, 2022 (18 Tishrei 5783)
 
 All notable changes to this project will be documented in this file.
 
