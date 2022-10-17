@@ -1,4 +1,5 @@
-(load-file "~/.doom.d/contact.el")
+(setq user-full-name "Rachel Michaela"
+      user-mail-address "hacking@rami.org.il")
 (setq doom-font (font-spec :family "Ubuntu Mono"
                            :size 13))
 (setq doom-theme 'doom-manegarm)
