@@ -16,3 +16,11 @@
 (setq display-line-numbers-type 'relative)
 (setq-default indent-tabs-mode t)
 (global-display-fill-column-indicator-mode t)
+
+;;; Perl Mode
+;; - Enforce cperl-mode
+;; - Use sane hash block indentation
+;; - Enable cperl in flycheck
+(fset 'perl-mode 'cperl-mode)
+(setq cperl-indent-parens-as-block t)
+(add-hook 'cperl-mode-hook 'flycheck-mode)
