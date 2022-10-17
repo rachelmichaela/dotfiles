@@ -1,6 +1,6 @@
 # Changes
 
-Document last updated October 13th, 2022 (18 Tishrei 5783)
+Document last updated October 17th, 2022 (22 Tishrei 5783)
 
 All notable changes to this project will be documented in this file.
 
@@ -12,6 +12,19 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 
 ### Added
 - Provide a small installer script.
+
+## [22.10.2] - 2022/10/17
+
+### Added
+- `emacs`: Added comments to configuration files
+- `emacs`: Added better default Perl support
+
+### Changed
+- `emacs`: Default to hybrid relative line numbers
+- `vim`: Default to hybrid relative line numbers
+
+### Removed
+- `emacs`: Removed font declaration and other unused configuration options
 
 ## [22.10.1] - 2022/10/13
 
