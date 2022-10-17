@@ -38,11 +38,6 @@ Configuration files are provided for the following applications:
 [vim-plug](https://github.com/junegunn/vim-plug)
 - [Wofi](https://hg.sr.ht/~scoopta/wofi/)
 
-#### Notes
-
-- The Vim configuration file can be used without `vim-plug`, but Vim will throw
-errors on launch.
-
 ### How to use `dotfiles`
 
 To install an individual dotfile on your system, the following steps are
