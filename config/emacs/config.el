@@ -9,6 +9,10 @@
 (setq org-directory "~/org/")
 (setq confirm-kill-emacs nil)
 
+;;; Dashboard Configuration
+;; - Remove footer block
+(remove-hook '+doom-dashboard-functions #'doom-dashboard-widget-footer)
+
 ;;; Editor Configuration
 ;; - Use relative line numbers
 ;; - Use tabs for indentation
