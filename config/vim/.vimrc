@@ -8,8 +8,9 @@ filetype plugin on
 " Enable syntax detection
 syntax on
 
-" Show line numbers
-set number
+" Show hybrid relative line numbers
+set number relativenumber
+set nu rnu
 
 " Use 4 character wide indentation
 set shiftwidth=4
