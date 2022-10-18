@@ -66,3 +66,8 @@ elif [ -x "$(command -v ee)" ]; then
 elif [ -x "$(command -v nano)" ]; then
 	NANO_PATH=$(command -v nano); export EDITOR=$NANO_PATH
 fi
+
+# Alias "emacs" to client with itself as backup
+if [ -x "$(command -v emacsclient)" ]; then
+	alias emacs="emacsclient -c -a 'emacs'"
+fi
