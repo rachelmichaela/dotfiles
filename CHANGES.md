@@ -1,6 +1,6 @@
 # Changes
 
-Document last updated October 17th, 2022 (22 Tishrei 5783)
+Document last updated October 26th, 2022 (1 Marcheshvan 5783)
 
 All notable changes to this project will be documented in this file.
 
@@ -12,6 +12,11 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 
 ### Added
 - Provide a small installer script.
+
+## [22.10.3] - 2022/10/26
+
+### Added
+- `bash`: Now includes an alias for `bat` from `batcat` as a `cat` alternative
 
 ## [22.10.2] - 2022/10/17
 
