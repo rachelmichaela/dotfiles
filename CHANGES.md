@@ -17,6 +17,7 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 
 ### Added
 - `bash`: Now includes an alias for `bat` from `batcat` as a `cat` alternative
+- `emacs`: Include PDF packages to improve LaTeX preview support
 
 ## [22.10.2] - 2022/10/17
 
