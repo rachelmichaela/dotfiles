@@ -73,4 +73,6 @@ if [ -x "$(command -v emacsclient)" ]; then
 fi
 
 # If "batcat" exists, alias it to "bat"
-alias bat='batcat --paging=never'
+if [ -x "$(command -v batcat)" ]; then
+	alias bat='batcat --paging=never'
+fi
