@@ -13,6 +13,11 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 ### Added
 - Provide a small installer script.
 
+## [22.10.4] - 2022/10/27
+
+### Added
+- `perlbrew`: Provide default `bashrc` in case Perlbrew fails to install it
+
 ## [22.10.3] - 2022/10/26
 
 ### Added

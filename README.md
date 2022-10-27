@@ -33,8 +33,9 @@ Configuration files are provided for the following applications:
 - GNU [Emacs](https://www.gnu.org/software/emacs/) with
 [Doom](https://github.com/hlissner/doom-emacs/)
 - [greetd](https://git.sr.ht/~kennylevinsen/greetd) for Sway
+- [perlbrew](https://perlbrew.pl/)
 - [swaywm](https://swaywm.org/)
-- [Vim](https://www.vim.org/) with 
+- [Vim](https://www.vim.org/) with
 [vim-plug](https://github.com/junegunn/vim-plug)
 - [Wofi](https://hg.sr.ht/~scoopta/wofi/)
 
@@ -52,7 +53,7 @@ Contributions can be made in the form of pull requests, or via bug reports
 and suggestions in the repository issues.
 
 All contributors must assign the copyright of their contribution to the author
-of the project. This is to avoid the myriad of issues caused by having 
+of the project. This is to avoid the myriad of issues caused by having
 multiple intellectual property holders in a single project.
 
 ### License
