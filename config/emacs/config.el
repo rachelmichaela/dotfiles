@@ -25,6 +25,11 @@
 ;; - Enforce cperl-mode
 ;; - Use sane hash block indentation
 ;; - Enable cperl in flycheck
+;; - Default CGI, PCGI, cpanfile and test files to Perl
 (fset 'perl-mode 'cperl-mode)
 (setq cperl-indent-parens-as-block t)
 (add-hook 'cperl-mode-hook 'flycheck-mode)
+(setq auto-mode-alist (cons '("cpanfile$" . perl-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.cgi$" . perl-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.psgi$" . perl-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.t$" . perl-mode) auto-mode-alist))
