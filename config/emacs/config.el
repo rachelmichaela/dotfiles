@@ -33,3 +33,7 @@
 (setq auto-mode-alist (cons '("\\.cgi$" . perl-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.psgi$" . perl-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.t$" . perl-mode) auto-mode-alist))
+
+;;; Markdown Mode
+;; - Add Template Toolkit files to markdown-mode
+(setq auto-mode-alist (cons '("\\.tt$" . markdown-mode) auto-mode-alist))
