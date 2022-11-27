@@ -1,6 +1,6 @@
 # Changes
 
-Document last updated October 26th, 2022 (1 Marcheshvan 5783)
+Document last updated November 27th, 2022 (3 Kislev 5783)
 
 All notable changes to this project will be documented in this file.
 
@@ -12,6 +12,13 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 
 ### Added
 - Provide a small installer script.
+
+## [22.11.01] - 2022/11/27
+
+### Added
+- `emacs`: Template Toolkit files now default to Markdown mode
+- `emacs`: Use `dracula` theme
+- `vim`: Use `dracula` theme
 
 ## [22.10.4] - 2022/10/27
 
