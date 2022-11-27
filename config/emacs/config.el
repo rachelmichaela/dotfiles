@@ -1,11 +1,11 @@
 ;;; General configuration
 ;; - Define identity for Git et al
-;; - Set Doom theme to default
+;; - Set Doom theme to Dracula
 ;; - Set local org file directory to home subdirectory
 ;; - Disable exit confirmation messages
 (setq user-full-name "Rachel Michaela"
       user-mail-address "hacking@rami.org.il")
-(setq doom-theme 'doom-one)
+(setq doom-theme 'doom-dracula)
 (setq org-directory "~/org/")
 (setq confirm-kill-emacs nil)
 

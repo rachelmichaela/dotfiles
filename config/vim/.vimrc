@@ -45,5 +45,10 @@ call plug#begin()
 	
 	" Use the Smart Tabs plugin
 	Plug 'Thyrum/vim-stabs'
+
+	" Use the Dracula theme plugin
+	Plug 'dracula/vim', {'as':'dracula'}
 call plug#end()
-	
+
+" Enable the Dracula theme
+colorscheme dracula
