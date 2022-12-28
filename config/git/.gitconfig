@@ -3,3 +3,5 @@
 	email = hacking@rami.org.il
 [init]
 	defaultbranch = trunk
+[advice]
+	addIgnoredFile = false
