@@ -13,32 +13,32 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 ### Added
 - Provide a small installer script.
 
-## [23.01.01] - 2023/01/21
+## [23.01.01] - 2023-01-21
 
 ### Changed
 - `perlbrew`: Modified repository directory to support direct copying
 - `vim`: Modified repository directory to support direct copying
 
-## [22.11.01] - 2022/11/27
+## [22.11.01] - 2022-11-27
 
 ### Added
 - `emacs`: Template Toolkit files now default to Markdown mode
 - `emacs`: Use `dracula` theme
 - `vim`: Use `dracula` theme
 
-## [22.10.4] - 2022/10/27
+## [22.10.4] - 2022-10-27
 
 ### Added
 - `perlbrew`: Provide default `bashrc` in case Perlbrew fails to install it
 
-## [22.10.3] - 2022/10/26
+## [22.10.3] - 2022-10-26
 
 ### Added
 - `bash`: Now includes an alias for `bat` from `batcat` as a `cat` alternative
 - `emacs`: Include PDF packages to improve LaTeX preview support
 - `emacs`: Default Perl-derived file types, such as `.psgi`, to Perl mode
 
-## [22.10.2] - 2022/10/17
+## [22.10.2] - 2022-10-17
 
 ### Added
 - `emacs`: Added comments to configuration files
@@ -51,12 +51,12 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 ### Removed
 - `emacs`: Removed font declaration and other unused configuration options
 
-## [22.10.1] - 2022/10/13
+## [22.10.1] - 2022-10-13
 
 ### Added
 - `vim`: Automatically install `vim-plug` with plugins
 
-## [22.06.1] - 2022/06/07
+## [22.06.1] - 2022-06-07
 
 ### Added
 - `bash`: Added basic files for `bash`
@@ -71,12 +71,12 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 - `Sublime Text`: Removed `Sublime Text` completely due to `emacs` transition
 - `tcsh`: Removed `tcsh` following switch to `bash`
 
-## [22.04.2] - 2022/04/08
+## [22.04.2] - 2022-04-08
 
 ### Added
 - Added basic file for `greetd`, configured for Sway.
 
-## [22.04.1] - 2022/04/05
+## [22.04.1] - 2022-04-05
 
 ### Added
 - Started collecting my dotfiles for online publication. This initial collection
