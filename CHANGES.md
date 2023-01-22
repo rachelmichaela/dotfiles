@@ -13,7 +13,7 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 ### Added
 - Provide a small installer script.
 
-## [23.01.21] - 2023/01/21
+## [23.01.01] - 2023/01/21
 
 ### Changed
 - `perlbrew`: Modified repository directory to support direct copying
