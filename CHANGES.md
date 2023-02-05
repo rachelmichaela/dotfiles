@@ -13,7 +13,7 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 ### Added
 - Provide a small installer script.
 
-## [23.02.01] - 2023-01-05
+## [23.02.01] - 2023-02-05
 
 ### Added
 - `bash`: Provide an `open` alias for `xdg-open`
