@@ -76,3 +76,8 @@ fi
 if [ -x "$(command -v batcat)" ]; then
 	alias bat='batcat --paging=never'
 fi
+
+# If "xdg-open" exists, alias to "open" without output
+if [ -x "$(command -v xdg-open)" ]; then
+	alias open='xdg-open &>/dev/null'
+fi
