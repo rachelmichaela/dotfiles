@@ -20,6 +20,7 @@ PS1+=" \$ "
 
 # Set the PATH variable
 PATH="$PATH"
+PATH+=":/usr/local/texlive/2022/bin/x86_64-linux"
 PATH+=":$HOME/.emacs.d/bin"
 PATH+=":$HOME/perl5/perlbrew/bin"
 PATH+=":$HOME/.local/bin"
