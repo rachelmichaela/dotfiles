@@ -13,6 +13,11 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 ### Added
 - Provide a small installer script.
 
+## [23.03.01] - 2023-03-08
+
+### Added
+- `bash`: Include manually installed TeX Live binaries in the PATH
+
 ## [23.02.01] - 2023-02-05
 
 ### Added
