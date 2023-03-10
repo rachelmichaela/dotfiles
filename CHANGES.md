@@ -13,6 +13,11 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 ### Added
 - Provide a small installer script.
 
+## [23.03.02] - 2023-03-10
+
+### Added
+- `bash`: Include loading SDKMAN! by default if it exists.
+
 ## [23.03.01] - 2023-03-08
 
 ### Added
