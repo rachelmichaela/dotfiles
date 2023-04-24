@@ -3,11 +3,13 @@
 ;; - Set Doom theme to Dracula
 ;; - Set local org file directory to home subdirectory
 ;; - Disable exit confirmation messages
+;; - Ensure TeX Live is included in PATH
 (setq user-full-name "Rachel Michaela"
       user-mail-address "hacking@rami.org.il")
 (setq doom-theme 'doom-dracula)
 (setq org-directory "~/org/")
 (setq confirm-kill-emacs nil)
+(add-to-list 'exec-path "/usr/local/texlive/2023/bin/x86_64-linux")
 
 ;;; Dashboard Configuration
 ;; - Remove footer block
@@ -48,3 +50,9 @@
 ;;; Markdown Mode
 ;; - Add template toolkit files to markdown mode
 (setq auto-mode-alist (cons '("\\.tt$" . markdown-mode) auto-mode-alist))
+
+;;; Org Mode
+;; - Provide a function to automatically export as HTML on write
+(defun org-always-export-html ()
+	(add-hook 'after-save-hook 'org-html-export-to-html t t))
+(add-hook 'org-mode-hook #'org-always-export-html)
