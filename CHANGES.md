@@ -13,6 +13,13 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 ### Added
 - Provide a small installer script.
 
+## [23.04.01] - 2023-04-23
+
+### Added
+- `bash`: Update TeX Live path to current release.
+- `emacs`: Automatically export org files to HTML on disk write.
+- `emacs`: Ensure TeX Live is included in the executable path.
+
 ## [23.03.02] - 2023-03-10
 
 ### Added
