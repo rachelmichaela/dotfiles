@@ -13,6 +13,11 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 ### Added
 - Provide a small installer script.
 
+## [23.07.01] - 2023-07-01
+
+### Changed
+- `bash`: Load default PATH after loading custom PATH entries.
+
 ## [23.04.01] - 2023-04-23
 
 ### Added

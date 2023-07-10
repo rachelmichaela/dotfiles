@@ -19,8 +19,8 @@ PS1+="${YELLOW}\ \w ${PLAIN}\n"
 PS1+=" \$ "
 
 # Set the PATH variable
-PATH="$PATH"
-PATH+=":/usr/local/texlive/2023/bin/x86_64-linux"
+ORIGPATH="$PATH"
+PATH="/usr/local/texlive/2023/bin/x86_64-linux"
 PATH+=":$HOME/.emacs.d/bin"
 PATH+=":$HOME/perl5/perlbrew/bin"
 PATH+=":$HOME/.local/bin"
@@ -29,9 +29,9 @@ if [[ $OSTYPE =~ darwin ]]; then
 	PATH+=":/opt/local/bin" \
 	PATH+=":/opt/local/sbin" \
 	PATH+=":/Applications/MacPorts" \
-	PATH+=":/Applications/MacPorts/Emacs.app/Contents/MacOS" \
-	PATH+=":/Applications/MacPorts/EmacsMac.app/Contents/MacOS"
+	PATH+=":/Applications/Emacs.app/Contents/MacOS"
 fi
+PATH+=":$ORIGPATH"
 export PATH="$PATH"
 
 # Silence Bash warning on non-free macOS
