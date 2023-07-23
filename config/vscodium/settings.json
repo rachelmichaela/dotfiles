@@ -1,0 +1,41 @@
+{
+    "workbench.colorTheme": "GitHub Light",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "redhat.telemetry.enabled": false,
+    "editor.rulers": [
+        72,
+        80
+    ],
+    "editor.wordWrap": "on",
+    "html.format.wrapAttributes": "force-aligned",
+    "html.format.wrapLineLength": 80,
+    "git.enableCommitSigning": true,
+    "git.autofetch": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.lineNumbers": "relative",
+    "git.confirmSync": false,
+    "files.associations": {
+        ".*astro": "html",
+        ".*njk": "html"
+    },
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.extraLiners": "",
+    "html.format.templating": true,
+    "editor.accessibilitySupport": "off",
+    "editor.insertSpaces": false,
+    "java.completion.filteredTypes": [
+        "java.awt.*",
+        "com.sun.*",
+        "sun.*",
+        "jdk.*",
+        "org.graalvm.*",
+        "io.micrometer.shaded.*"
+    ],
+    "editor.inlayHints.enabled": "off",
+    "java.format.enabled": false,
+    "java.format.onType.enabled": false,
+    "explorer.compactFolders": false
+}

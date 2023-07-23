@@ -13,6 +13,11 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 ### Added
 - Provide a small installer script.
 
+## [23.07.02] - 2023-07-23
+
+### Added
+- `vscodium`: Include VSCodium settings and extensions list.
+
 ## [23.07.01] - 2023-07-01
 
 ### Changed
