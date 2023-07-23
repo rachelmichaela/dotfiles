@@ -17,8 +17,8 @@
     "editor.lineNumbers": "relative",
     "git.confirmSync": false,
     "files.associations": {
-        ".*astro": "html",
-        ".*njk": "html"
+        "*.astro": "html",
+        "*.njk": "html"
     },
     "html.format.indentHandlebars": true,
     "html.format.indentInnerHtml": true,

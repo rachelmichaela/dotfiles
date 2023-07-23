@@ -13,6 +13,11 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 ### Added
 - Provide a small installer script.
 
+## [23.07.03] - 2023-07-23
+
+### Changed
+- `vscodium`: Fix wildcard match for markup filetype associations.
+
 ## [23.07.02] - 2023-07-23
 
 ### Added
