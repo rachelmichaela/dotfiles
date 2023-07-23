@@ -1,7 +1,7 @@
 # `dotfiles`
 My personal collection of dotfiles for use on GNU/Linux, FreeBSD, and others.
 
-Document last updated October 9th, 2022 (14 Tishrei 5783)
+Document last updated July 23rd, 2023 (5 Av 5783)
 
 ### Table of Contents
 - [About `dotfiles`](#about-dotfiles)
@@ -37,6 +37,7 @@ Configuration files are provided for the following applications:
 - [swaywm](https://swaywm.org/)
 - [Vim](https://www.vim.org/) with
 [vim-plug](https://github.com/junegunn/vim-plug)
+- [VSCodium](https://vscodium.com/)
 - [Wofi](https://hg.sr.ht/~scoopta/wofi/)
 
 ### How to use `dotfiles`
