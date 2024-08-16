@@ -1,7 +1,18 @@
 [user]
-	name = Rachel Michaela
+	name = Rachel Michaela Mettenbrink
 	email = hacking@rami.org.il
 [init]
 	defaultbranch = trunk
 [advice]
 	addIgnoredFile = false
+[commit]
+	gpgsign = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	filemode = false
+[gpg]
+	program = /opt/local/bin/gpg
