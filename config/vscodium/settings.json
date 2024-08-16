@@ -1,41 +1,75 @@
 {
-    "workbench.colorTheme": "GitHub Light",
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "redhat.telemetry.enabled": false,
-    "editor.rulers": [
-        72,
-        80
-    ],
-    "editor.wordWrap": "on",
-    "html.format.wrapAttributes": "force-aligned",
-    "html.format.wrapLineLength": 80,
-    "git.enableCommitSigning": true,
-    "git.autofetch": true,
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.lineNumbers": "relative",
-    "git.confirmSync": false,
-    "files.associations": {
-        "*.astro": "html",
-        "*.njk": "html"
-    },
-    "html.format.indentHandlebars": true,
-    "html.format.indentInnerHtml": true,
-    "html.format.extraLiners": "",
-    "html.format.templating": true,
-    "editor.accessibilitySupport": "off",
-    "editor.insertSpaces": false,
-    "java.completion.filteredTypes": [
-        "java.awt.*",
-        "com.sun.*",
-        "sun.*",
-        "jdk.*",
-        "org.graalvm.*",
-        "io.micrometer.shaded.*"
-    ],
-    "editor.inlayHints.enabled": "off",
-    "java.format.enabled": false,
-    "java.format.onType.enabled": false,
-    "explorer.compactFolders": false
+	"editor.accessibilitySupport": "off",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.inlayHints.enabled": "off",
+	"editor.insertSpaces": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"editor.rulers": [
+		72,
+		80
+	],
+	"editor.lineNumbers": "relative",
+	"editor.wordWrap": "on",
+	"explorer.compactFolders": false,
+	"explorer.confirmDelete": false,
+	"files.associations": {
+		"*.astro": "html",
+		"*.embeddedhtml": "html",
+		"*.njk": "html",
+		"*.shtml": "html",
+		"*.tt": "html"
+	},
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"git.enableCommitSigning": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"html.format.extraLiners": "",
+	"html.format.indentHandlebars": true,
+	"html.format.indentInnerHtml": true,
+	"html.format.templating": true,
+	"html.format.wrapAttributes": "force-aligned",
+	"html.format.wrapLineLength": 80,
+	"java.completion.filteredTypes": [
+		"java.awt.*",
+		"com.sun.*",
+		"sun.*",
+		"jdk.*",
+		"org.graalvm.*",
+		"io.micrometer.shaded.*"
+	],
+	"java.format.enabled": false,
+	"java.format.onType.enabled": false,
+	"julia.symbolCacheDownload": true,
+	"julia.enableTelemetry": true,
+	"jupyter.askForKernelRestart": false,
+	"latex-workshop.bibtex-format.tab": "tab",
+	"latex-workshop.linting.run": "onType",
+	"latex-workshop.latex.autoBuild.run": "never",
+	"latex-workshop.latex.autoClean.run": "onBuilt",
+	"[perl]": {
+		"editor.defaultFormatter": "sfodje.perltidy"
+	},
+	"prettier.bracketSameLine": true,
+	"prettier.proseWrap": "always",
+	"prettier.requireConfig": true,
+	"prettier.singleAttributePerLine": true,
+	"prettier.tabWidth": 4,
+	"prettier.trailingComma": "none",
+	"prettier.useTabs": true,
+	"redhat.telemetry.enabled": true,
+	"security.workspace.trust.enabled": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
+	"window.autoDetectColorScheme": true,
+	"workbench.colorTheme": "GitHub Light",
+	"workbench.editorAssociations": {
+		"*.pdf": "latex-workshop-pdf-hook"
+	},
+	"workbench.preferredLightColorTheme": "GitHub Light",
+	"workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
+	"workbench.startupEditor": "none"
 }
