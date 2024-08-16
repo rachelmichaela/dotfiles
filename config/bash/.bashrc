@@ -58,7 +58,10 @@ if [[ -d "$HOME/.nvm" ]]; then
 fi
 
 # If Emacs exists with Doom, set as editor; else, try Vim; else, safe fallbacks
-if [ -x "$(command -v doom)" ]; then
+if [ -x "$(command -v nvim)" ]; then
+	alias vim=nvim
+	export EDITOR=$(command -v nvim)
+elif [ -x "$(command -v doom)" ]; then
 	EMACS_PATH=$(command -v emacs); export EDITOR=$EMACS_PATH
 elif [ -x "$(command -v vim)" ]; then
 	VIM_PATH=$(command -v vim); export EDITOR=$VIM_PATH
@@ -87,4 +90,17 @@ fi
 if [[ -d "$HOME/.sdkman" ]]; then
 	export SDKMAN_DIR="$HOME/.sdkman"
 	source "$HOME/.sdkman/bin/sdkman-init.sh"
+fi
+
+# If "zoxide" exists, use it instead of "cd"
+if [ -x "$(command -v zoxide)" ]; then
+	eval "$(zoxide init bash)"
+	alias cd=z
+fi
+
+# If ".pyenv" exists, load the appropriate shell scripts
+if [[ -d "$HOME/.pyenv" ]]; then
+	export PYENV_ROOT="$HOME/.pyenv"
+	command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+	eval "$(pyenv init -)"
 fi
