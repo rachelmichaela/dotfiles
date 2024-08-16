@@ -1,6 +1,6 @@
 # Changes
 
-Document last updated November 27th, 2022 (3 Kislev 5783)
+Document last updated August 16th, 2024 (12 Av 5784)
 
 All notable changes to this project will be documented in this file.
 
@@ -12,6 +12,19 @@ and this project adheres to [Calendar Versioning](https://calver.org/) in the
 
 ### Added
 - Provide a small installer script.
+
+## [24.08.01] - 2024-08-16
+
+### Changed
+
+- `bash`: Use Neovim as the default editor if it exists.
+- `bash`: Use `zoxide` as a replacement for `cd` if it exists.
+- `bash`: Load `pyenv` if it exists.
+- `git`: Miscellaneous LFS and GPG configuration.
+- `vim`: Switch to a Rainglow theme when using Neovim.
+- `vim`: Included additional plugins for development with Neovim.
+- `vscodium`: Additional configuration for several extensions.
+- `vscodium`: Reorganized settings alphabetically for maintainability
 
 ## [23.07.03] - 2023-07-23
 
